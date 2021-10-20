@@ -1,0 +1,43 @@
+{
+  "name": "animebotwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "git pull && npm install",
+    "checkPacs": "npx npm-check-updates",
+    "checkPacs:u": "npx npm-check-updates -u && npm install",
+    "test": "eslint . --ignore-path .gitignore",
+    "test:fix": "eslint . --ignore-path .gitignore --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "sass:c": "sass assets/scss:assets/css",
+    "sass:s": "sass --watch assets/scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingCh1ll/AnimeBotWebsite.git"
+  },
+  "author": "KingCh1ll",
+  "license": "MIT",
+  "engines": {
+    "node": "=>14.x",
+    "npm": "=>7.x"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3",
+    "sweetalert2": "^11.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "npm": "^8.1.0",
+    "prettier": "2.4.1",
+    "sass": "^1.43.2"
+  },
+  "bugs": {
+    "url": "https://github.com/KingCh1ll/AnimeBotWebsite/issues"
+  },
+  "homepage": "https://github.com/KingCh1ll/AnimeBotWebsite#readme"
+}

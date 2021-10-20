@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "digitalbrainstem.javascript-ejs-support",
+    "rlnt.keep-a-changelog",
+    "esbenp.prettier-vscode"
+  ]
+}

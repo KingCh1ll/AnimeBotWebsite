@@ -1,0 +1,23 @@
+// Components
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// Sections
+@use 'sections/navbar';
+@use 'sections/hero';
+@use 'sections/services';
+@use 'sections/reviews';
+@use 'sections/footer';
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #111218;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1c1c24;
+}
