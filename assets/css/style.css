@@ -13189,43 +13189,43 @@ hr {
   padding: 0;
   background: linear-gradient(to right, rgba(255, 0, 0, 0.95), rgba(0, 0, 255, 0.95));
 }
-.reviews__card {
-  background-color: rgba(255, 255, 255, 0.8);
+.reviews_card {
+  background-color: grey;
   padding: 2rem 1.25rem;
   border-radius: 0.625rem;
   height: auto;
   text-align: center;
 }
-.reviews__card i {
+.reviews_card i {
   font-size: 1.5rem;
   color: rgba(255, 0, 0, 0.7);
 }
-.reviews__card .ratings i {
+.reviews_card .ratings i {
   color: rgba(255, 0, 0, 0.7);
   font-size: 1rem;
 }
-.reviews__picture {
-  width: 6px;
-  height: 6px;
+.reviews_picture {
+  width: 6rem;
+  height: 6rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.reviews__picture img {
+.reviews_picture img {
   border: 0.325rem solid rgba(255, 0, 0, 0.7);
 }
-.reviews__name {
+.reviews_name {
   padding-top: 3rem;
   margin-bottom: 1rem;
   text-align: center;
   font-weight: 500;
   color: #fff;
 }
-.reviews__name h3 {
+.reviews_name h3 {
   padding-top: 0.8rem;
   text-transform: capitalize;
 }
-.reviews__name p {
+.reviews_name p {
   padding-bottom: 2rem;
   text-transform: capitalize;
 }
